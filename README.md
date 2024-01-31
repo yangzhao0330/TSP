@@ -1,5 +1,5 @@
 #TSP(MTZ约束）代码优化 
-这个优化版的代码做了如下改进：
+通过学习zhangchenhaoseu学长的代码，通过gpt生成这个优化版的代码，做了如下改进：
 将distance_calculation函数简化为haversine_distance，使用pandas DataFrame更直接地访问经纬度。
 在创建距离矩阵时避免了重复计算对称项。
 使用列表推导式生成index_tplst，更加简洁。
